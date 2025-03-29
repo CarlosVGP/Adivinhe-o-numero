@@ -32,7 +32,7 @@ function alterarCampoDeTexto(tag, frase){
 }
 
 function gerarNumeroAleatorio (){
-    let numeroEscolhido = parseInt(Math.random() * 10 + 1);
+    let numeroEscolhido = parseInt(Math.random() * 100 + 1);
     if(numeroEscolhido == numeroGerado){
         return gerarNumeroAleatorio();
     }else{
