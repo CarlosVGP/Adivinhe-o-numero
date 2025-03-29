@@ -1,6 +1,6 @@
 mensagemInicial()
 let numeroGerado;
-let numeroAleatorio = 1;
+let numeroAleatorio = gerarNumeroAleatorio();
 let tentativas = 0;
 let textoTentativas;
 
