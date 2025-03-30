@@ -28,7 +28,7 @@ function verificarChute(){
 function alterarCampoDeTexto(tag, frase){
     let campo = document.querySelector(tag);
     campo.innerHTML = frase;
-    responsiveVoice.speak(frase, "Brazilian Portuguese Female", {rate:1.2})
+    //responsiveVoice.speak(frase, "Brazilian Portuguese Female", {rate:1.2})
 }
 
 function gerarNumeroAleatorio (){
